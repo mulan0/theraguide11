@@ -1,0 +1,37 @@
+name: theraguide
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  animate_do: ^4.2.0
+  intl: ^0.20.2
+  http: ^1.4.0
+  cupertino_icons: ^1.0.8
+  icons_plus: ^5.0.0
+  shared_preferences: ^2.2.2
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.1
+flutter_native_splash:
+  color: "#42c5f5"  # لون الخلفية
+  image: "assets/images/splash_logo.png"  # شعار الشاشة
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/icon.png"  # مسار الأيقونة الجديدة
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/Exercises/
